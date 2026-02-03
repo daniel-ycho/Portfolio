@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowRight, Download, ExternalLink, Mail, Phone, MapPin, ChevronDown, ChevronUp, Video, Share2, FileText, Github, Globe } from 'lucide-react';
+import { ArrowRight, Download, ExternalLink, Mail, MapPin, ChevronDown, ChevronUp, Video, Share2, FileText, Github, Globe } from 'lucide-react';
 import SectionHeader from './components/SectionHeader';
 import Navigation from './components/Navigation';
 import { CONTACT_INFO, EDUCATION, EXPERIENCE, PROJECTS, SKILLS } from './constants';
@@ -287,16 +287,6 @@ const App: React.FC = () => {
                        </div>
                     </a>
                     
-                    <a href={`tel:${CONTACT_INFO.phone}`} className="flex items-center gap-4 group">
-                       <div className="w-12 h-12 bg-white border border-black text-black flex items-center justify-center group-hover:border-wsj-blue group-hover:text-wsj-blue transition-colors">
-                          <Phone size={20} />
-                       </div>
-                       <div>
-                          <span className="block font-sans text-xs uppercase tracking-widest text-gray-500">Phone</span>
-                          <span className="font-serif text-xl md:text-2xl">{CONTACT_INFO.phone}</span>
-                       </div>
-                    </a>
-
                     <div className="flex items-center gap-4">
                        <div className="w-12 h-12 bg-gray-100 text-gray-400 flex items-center justify-center">
                           <MapPin size={20} />

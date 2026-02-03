@@ -2,7 +2,6 @@ import { ExperienceItem, EducationItem, SkillCategory, ProjectItem } from './typ
 
 export const CONTACT_INFO = {
   name: "DANIEL CHO",
-  phone: "+1-860-719-3659",
   email: "daniel.ycho@outlook.com",
   location: "NY, CT, RI",
   linkedin: "linkedin.com/in/daniel-ycho",
