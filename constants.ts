@@ -27,7 +27,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     location: "Oxford, CT",
     period: "Nov 2024 – July 2025",
     description: [
-      "Organized and appended ~13,500 lab reports and ~1,400 legal entity records into PostgreSQL databases.",
+      "Organized and appended lab reports and legal entity records into databases.",
       "Standardized metadata schemas to improve database integrity and accessibility according to ASTM/ISO standards.",
       "Performed data validation, deduplication, and quality control to maintain accuracy."
     ]
